@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App-content {
+  padding: 3em;
+}
+
+.App-loading,
+.App-content-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
